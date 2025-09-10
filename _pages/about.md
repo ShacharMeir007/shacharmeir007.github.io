@@ -7,11 +7,15 @@ redirect_from:
   - /about.html
 ---
 
-I'm a first year PhD student at the Weizmann Institute of Science, where I'm fortunate to be advised by [Prof. David Peleg](https://www.weizmann.ac.il/math/peleg/).I did my Msc under David as well and before that I got a Bachlor degree in computer science from Bar-Ilan university. I'm mainly interested in fault tolerant distributed computing trying to give fresh takes on classical problems e.g consensus and state maching replication, and come up with interesting new models. 
+I'm a first year PhD student at the Weizmann Institute of Science, where I'm fortunate to be advised by [Prof. David Peleg](https://www.weizmann.ac.il/math/peleg/). Before that, I completed my Masters under David as well, and got a Bachlors degree in computer science from Bar-Ilan university.
+
+Research Interest
+=====
+I'm mainly interested in fault tolerant distributed computing, trying to give fresh takes on classical problems e.g consensus and state maching replication, and come up with interesting new models (see publications below to see examples). I'm always open to hearing about new exciting projects in this space.
 
 Publications
 ======
-Full publication list can be found in my [dblp]{https://dblp.org/pid/358/4181.html}
+Full publications list can be found in my [dblp](https://dblp.org/pid/358/4181.html)
 ## 2025
 
 - [**Time-Optimal and Energy-Efficient Deterministic Consensus**](https://arxiv.org/abs/2506.12282)  
