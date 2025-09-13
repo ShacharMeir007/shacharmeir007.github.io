@@ -7,11 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-I'm a first year PhD student at the Weizmann Institute of Science, where I'm fortunate to be advised by [Prof. David Peleg](https://www.weizmann.ac.il/math/peleg/). Before that, I completed my Masters under David as well, and got a Bachlors degree in computer science from Bar-Ilan university.
+I am a first-year PhD student at the Weizmann Institute of Science, advised by Prof. David Peleg. Previously, I completed my Master’s degree under his supervision, and I hold a Bachelor’s degree in Computer Science from Bar-Ilan University.
 
 Research Interest
 =====
-I'm mainly interested in fault tolerant distributed computing, trying to give fresh takes on classical problems e.g consensus and state maching replication, and come up with interesting new models (see publications below to see examples). I'm always open to hearing about new exciting projects in this space.
+I am primarily interested in fault-tolerant distributed computing. My work explores fresh perspectives on classical problems such as consensus and state machine replication, as well as the design of new foundational computational models (see publications below for examples). My long-term goal is to advance both the theoretical foundations and practical applications of distributed systems, and I am always open to engaging with exciting new projects in this space.
 
 Publications
 ======
