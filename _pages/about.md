@@ -22,10 +22,10 @@ Full publications list can be found in my [dblp](https://dblp.org/pid/358/4181.h
   **Shachar Meir**, Hugo Mirault, Peter Robinson, David Peleg · *In submission*; [arXiv](https://arxiv.org/abs/2506.12282)
 
 - [**Distributed Download from an External Data Source in Asynchronous Faulty Settings**](https://arxiv.org/abs/2509.03755)  
-  John Augustine, Soumyottam Chatterjee, Valerie King, Manish Kumar, **Shachar Meir**, David Peleg · *In submission*; [arXiv](https://arxiv.org/abs/2509.03755)
+  John Augustine, Soumyottam Chatterjee, Valerie King, Manish Kumar, **Shachar Meir**, David Peleg · To appear in *OPODIS 2025*; [arXiv](https://arxiv.org/abs/2509.03755)
 
-- [**Distributed Download from an External Data Source in Faulty Majority Settings**](https://arxiv.org/abs/2412.19649)  
-  John Augustine, Soumyottam Chatterjee, Valerie King, Manish Kumar, **Shachar Meir**, David Peleg · To appear in *DISC 2025*; [arXiv](https://arxiv.org/abs/2412.19649)
+- [**Distributed Download from an External Data Source in Faulty Majority Settings**](https://drops.dagstuhl.de/storage/00lipics/lipics-vol356-disc2025/LIPIcs.DISC.2025.9/LIPIcs.DISC.2025.9.pdf) 
+  John Augustine, Soumyottam Chatterjee, Valerie King, Manish Kumar, **Shachar Meir**, David Peleg ·  *DISC 2025*; [arXiv](https://arxiv.org/abs/2412.19649)
 
 
 
