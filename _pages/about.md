@@ -19,7 +19,7 @@ Full publications list can be found in my [dblp](https://dblp.org/pid/358/4181.h
 ## 2025
 
 - [**Time-Optimal and Energy-Efficient Deterministic Consensus**](https://arxiv.org/abs/2506.12282)  
-  **Shachar Meir**, Hugo Mirault, Peter Robinson, David Peleg · *In submission*; [arXiv](https://arxiv.org/abs/2506.12282)
+  **Shachar Meir**, Hugo Mirault, Peter Robinson, David Peleg · To appear in *OPODIS 2025*; [arXiv](https://arxiv.org/abs/2506.12282)
 
 - [**Distributed Download from an External Data Source in Asynchronous Faulty Settings**](https://arxiv.org/abs/2509.03755)  
   John Augustine, Soumyottam Chatterjee, Valerie King, Manish Kumar, **Shachar Meir**, David Peleg · To appear in *OPODIS 2025*; [arXiv](https://arxiv.org/abs/2509.03755)
