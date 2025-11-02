@@ -11,7 +11,7 @@ I am a first-year PhD student at the Weizmann Institute of Science, advised by P
 
 Research Interest
 =====
-I am primarily interested in fault-tolerant distributed computing. My work explores fresh perspectives on classical problems such as consensus and state machine replication, as well as the design of new foundational computational models (see publications below for examples). My long-term goal is to advance both the theoretical foundations and practical applications of distributed systems, and I am always open to engaging with exciting new projects in this space.
+I am primarily interested in fault-tolerant distributed computing. My work explores fresh perspectives on classical problems such as consensus and state machine replication, as well as the design of new foundational computational models (see publications below for examples). My long-term goal is to advance both the theoretical foundations and practical applications of distributed systems, and I am always open to work on exciting new projects in this space.
 
 Publications
 ======
