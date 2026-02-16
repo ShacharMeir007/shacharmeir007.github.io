@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a first-year PhD student at the Weizmann Institute of Science, advised by Prof. David Peleg. Previously, I completed my Master’s degree under his supervision, and I hold a Bachelor’s degree in Computer Science from Bar-Ilan University.
+I am a second-year PhD student at the Weizmann Institute of Science, advised by Prof. David Peleg. Previously, I completed my Master’s degree under his supervision, and I hold a Bachelor’s degree in Computer Science from Bar-Ilan University.
 
 Research Interest
 =====
