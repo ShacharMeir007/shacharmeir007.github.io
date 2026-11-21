@@ -25,7 +25,7 @@ author:
   avatar           : "profile.png"
   name             : "Shachar Meir"
   pronouns         : # example: "she/her"  
-  bio              : "PhD researcher working on interesting models of fault tolerant distributed computing."
+  bio              : "PhD researcher working on fault-tolerant distributed computing and proof-of-stake consensus."
   location         : "Rehovot, Israel"
   employer         : "Weizmann Institute of Science"
   uri              : # URL
