@@ -1,0 +1,20 @@
+# Talks, newest first.
+- year: 2026
+  title: "The Effect of the Inactivity Leak on Accountable Safety"
+  event: "Ethereum Foundation"
+  location: "Berlin, Germany"
+
+- year: 2025
+  title: "Time-Optimal and Energy-Efficient Deterministic Consensus"
+  event: "OPODIS 2025"
+  location: "Iasi, Romania"
+
+- year: 2025
+  title: "Distributed Download from an External Data Source"
+  event: "DISC 2025"
+  location: "Berlin, Germany"
+
+- year: 2024
+  title: "Byzantine Resilient Distributed Computing on External Data"
+  event: "DISC 2024"
+  location: "Madrid, Spain"

@@ -1,0 +1,57 @@
+# Publications, newest first. Shown as a chain on the home page.
+#
+# status:  published    -> teal block and badge
+#          submitted    -> amber outlined block, dashed badge
+#          preparation  -> amber outlined block, dashed badge
+# venue:   the short label in the badge
+# links:   paper and arxiv are both optional
+# note:    optional one line (brief announcements, journal versions)
+
+- title: "Time Is Stake: The Accountability Cost of Restoring Finality in Ethereum"
+  authors: ["Shachar Meir", "Yann Vonlanthen", "Roberto Saltini"]
+  year: 2026
+  venue: "In preparation"
+  status: preparation
+
+- title: "Towards Distributed Consensus with Optimal Energy Complexity"
+  authors: ["Shachar Meir", "Hugo Mirault", "David Peleg", "Peter Robinson"]
+  year: 2026
+  venue: "In submission"
+  status: submitted
+
+- title: "Time-Optimal and Energy-Efficient Deterministic Consensus"
+  authors: ["Shachar Meir", "Hugo Mirault", "David Peleg", "Peter Robinson"]
+  year: 2025
+  venue: "OPODIS 2025"
+  status: published
+  links:
+    paper: "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.OPODIS.2025.15"
+    arxiv: "https://arxiv.org/abs/2506.12282"
+
+- title: "Distributed Download from an External Data Source in Asynchronous Faulty Settings"
+  authors: ["John Augustine", "Soumyottam Chatterjee", "Valerie King", "Manish Kumar", "Shachar Meir", "David Peleg"]
+  year: 2025
+  venue: "OPODIS 2025"
+  status: published
+  note: "Brief announcement at DISC 2025."
+  links:
+    paper: "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.OPODIS.2025.18"
+    arxiv: "https://arxiv.org/abs/2509.03755"
+
+- title: "Distributed Download from an External Data Source in Byzantine Majority Settings"
+  authors: ["John Augustine", "Soumyottam Chatterjee", "Valerie King", "Manish Kumar", "Shachar Meir", "David Peleg"]
+  year: 2025
+  venue: "DISC 2025"
+  status: published
+  note: "Journal version in Distributed Computing (2026)."
+  links:
+    paper: "https://drops.dagstuhl.de/storage/00lipics/lipics-vol356-disc2025/LIPIcs.DISC.2025.9/LIPIcs.DISC.2025.9.pdf"
+    arxiv: "https://arxiv.org/abs/2412.19649"
+
+- title: "Byzantine Resilient Distributed Computing on External Data"
+  authors: ["John Augustine", "Jeffin Biju", "Shachar Meir", "David Peleg", "Srikkanth Ramachandran", "Aishwarya Thiruvengadam"]
+  year: 2024
+  venue: "DISC 2024"
+  status: published
+  links:
+    paper: "https://drops.dagstuhl.de/storage/00lipics/lipics-vol319-disc2024/LIPIcs.DISC.2024.3/LIPIcs.DISC.2024.3.pdf"

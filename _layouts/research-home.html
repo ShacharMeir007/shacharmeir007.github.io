@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ site.author.name }}</title>
+  <meta name="description" content="{{ site.author.bio }}">
+  <meta property="og:title" content="{{ site.author.name }}">
+  <meta property="og:description" content="{{ site.author.bio }}">
+  <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/images/{{ site.author.avatar }}">
+  <link rel="icon" href="{{ site.baseurl }}/images/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Sometype+Mono:ital,wght@0,400;0,500;0,600;1,400&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/research-home.css">
+  <script>
+    /* Set the theme before first paint: saved choice, else the system setting. */
+    (function () {
+      var t = null;
+      try { t = localStorage.getItem('theme'); } catch (e) {}
+      if (!t) { t = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark'; }
+      document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="nav">
+    <div class="wrap nav__inner">
+      <a class="nav__name" href="{{ site.baseurl }}/">{{ site.author.name }}</a>
+      <nav aria-label="Sections">
+        <ul class="nav__links">
+          <li><a href="#research">Research</a></li>
+          <li><a href="#publications">Publications</a></li>
+          <li><a href="#talks">Talks</a></li>
+        </ul>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Switch between light and dark theme">
+        <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 1.5v3M12 19.5v3M1.5 12h3M19.5 12h3M4.6 4.6l2.1 2.1M17.3 17.3l2.1 2.1M4.6 19.4l2.1-2.1M17.3 6.7l2.1-2.1"/></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 14.5A8.5 8.5 0 0 1 9.5 3.5a8.5 8.5 0 1 0 11 11z"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero wrap">
+      <div class="hero__text">
+        <h1 class="hero__name">{{ site.author.name }}</h1>
+        <div class="hero__intro prose prose--type">{{ page.intro | markdownify }}</div>
+        <ul class="links" aria-label="Contact and profiles">
+          {% if site.author.email %}<li><a href="mailto:{{ site.author.email }}">Email</a></li>{% endif %}
+          {% if site.author.googlescholar %}<li><a href="{{ site.author.googlescholar }}">Google Scholar</a></li>{% endif %}
+          {% if site.author.dblp %}<li><a href="{{ site.author.dblp }}">DBLP</a></li>{% endif %}
+          {% if site.author.orcid %}<li><a href="{{ site.author.orcid }}">ORCID</a></li>{% endif %}
+          {% if site.author.github %}<li><a href="https://github.com/{{ site.author.github }}">GitHub</a></li>{% endif %}
+        </ul>
+      </div>
+      <figure class="hero__photo">
+        <img src="{{ site.baseurl }}/images/{{ site.author.avatar }}" alt="Portrait of {{ site.author.name }}" width="600" height="657">
+      </figure>
+    </section>
+
+    <section id="research" class="block wrap">
+      <h2 class="block__title">Research</h2>
+      <div class="block__body prose prose--type">{{ content }}</div>
+    </section>
+
+    <section id="publications" class="block wrap">
+      <h2 class="block__title">Publications</h2>
+      <div class="block__body">
+        <ol class="chain">
+          {% for p in site.data.publications %}
+          <li class="chain__item chain__item--{{ p.status }}">
+            <div class="chain__meta">
+              <span class="chain__year">{{ p.year }}</span>
+              <span class="badge badge--{{ p.status }}">{{ p.venue }}</span>
+            </div>
+            <div class="chain__body">
+              <h3 class="paper__title">{% if p.links.paper %}<a href="{{ p.links.paper }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</h3>
+              <p class="paper__authors">{% for a in p.authors %}{% if a == site.author.name %}<strong>{{ a }}</strong>{% else %}{{ a }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
+              {% if p.note %}<p class="paper__note">{{ p.note }}</p>{% endif %}
+              {% if p.links.paper or p.links.arxiv %}
+              <p class="paper__links">
+                {% if p.links.paper %}<a href="{{ p.links.paper }}">Paper</a>{% endif %}
+                {% if p.links.arxiv %}<a href="{{ p.links.arxiv }}">arXiv</a>{% endif %}
+              </p>
+              {% endif %}
+            </div>
+          </li>
+          {% endfor %}
+        </ol>
+        {% if site.author.dblp %}<p class="block__more">The full list is on <a href="{{ site.author.dblp }}">DBLP</a>.</p>{% endif %}
+      </div>
+    </section>
+
+    <section id="talks" class="block wrap">
+      <h2 class="block__title">Talks</h2>
+      <div class="block__body">
+        <ul class="talks">
+          {% for t in site.data.talks %}
+          <li class="talk">
+            <span class="talk__year">{{ t.year }}</span>
+            <span class="talk__title">{{ t.title }}</span>
+            <span class="talk__where">{{ t.event }}, {{ t.location }}</span>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer wrap">
+    <p>{{ site.author.name }}, {{ site.author.employer }}. <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></p>
+  </footer>
+
+  <script src="{{ site.baseurl }}/assets/js/research-home.js" defer></script>
+</body>
+</html>
