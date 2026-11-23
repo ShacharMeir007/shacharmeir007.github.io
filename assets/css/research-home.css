@@ -68,7 +68,7 @@ a:hover { text-decoration-thickness: 2px; }
 .prose p:last-child { margin-bottom: 0; }
 
 /* Profile and research text */
-.prose--type { font-family: var(--type); font-size: .97rem; line-height: 1.75; letter-spacing: -.005em; }
+.prose--type { font-family: var(--type); font-size: 1.08rem; line-height: 1.75; letter-spacing: -.005em; }
 .prose--type p { max-width: 62ch; }
 
 /* ------------------------------------------------------------
@@ -219,6 +219,7 @@ a:hover { text-decoration-thickness: 2px; }
    ------------------------------------------------------------ */
 @media (max-width: 720px) {
   body { font-size: 1.0625rem; }
+  .prose--type { font-size: 1.02rem; }
   .nav__links { gap: .9rem; }
   .nav__links a { font-size: .78rem; }
   .hero { grid-template-columns: 1fr; }
